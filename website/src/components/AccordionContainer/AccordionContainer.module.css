@@ -1,0 +1,8 @@
+.accordionCont {
+    width: 60vw;
+}
+
+.accordionHead>button {
+    background-color: white !important;
+    box-shadow: none !important;
+}

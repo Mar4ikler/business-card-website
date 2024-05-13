@@ -18,16 +18,16 @@
     gap: 1dvh;
 }
 
-.generalInfoContainer > img {
+.generalInfoContainer>img {
     height: 90dvh;
 }
 
-.representationInfo > div:first-child {
+.representationInfo>div:first-child {
     font-size: 50px;
     font-weight: bold;
 }
 
-.representationInfo > div:last-child {
+.representationInfo>div:last-child {
     color: rgba(0, 0, 0, 0.705);
 }
 
@@ -37,6 +37,37 @@
     padding: 15px 10px;
 }
 
-.helpBox > div:last-child {
+.helpBox>div:last-child {
     justify-self: center;
+}
+
+@media only screen and (max-width: 780px) {
+    .generalInfoContainer {
+        height: 90dvh;
+        position: relative;
+        width: 100%;
+    }
+
+    .representationInfo {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        justify-content: flex-end;
+        padding-bottom: 30px;
+        align-items: center;
+    }
+
+    .generalInfoContainer>img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .representationInfo>div:first-child {
+        font-size: 40px;
+    }
+
+    .helpBox {
+        width: 90vw;
+    }
 }

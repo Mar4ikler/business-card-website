@@ -9,7 +9,7 @@
     font-weight: bold;
     font-size: large;
     height: 7dvh;
-    width: 100vw;
+    width: 100%;
 }
 
 .navContainer>div:first-child {
@@ -19,7 +19,7 @@
 .navContainer {
     position: fixed;
     z-index: 1000;
-    width: 100vw;
+    width: 100%;
 }
 
 .navBar>div {

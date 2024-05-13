@@ -9,14 +9,20 @@
     border-radius: 5px;
 }
 
-.infoContainer > div:first-child {
+.infoContainer>div:first-child {
     font-size: 22px;
     font-weight: bold;
 }
 
 
-.infoContainer > div:last-child {
+.infoContainer>div:last-child {
     font-size: 18px;
     text-align: center;
     font-weight: 200;
+}
+
+@media only screen and (max-width: 780px) {
+    .infoContainer {
+        max-width: 90vw;
+    }
 }

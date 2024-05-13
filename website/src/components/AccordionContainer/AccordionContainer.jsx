@@ -7,7 +7,7 @@ const AccordionContainer = () => {
             <Accordion className={styles.accordionCont}>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header className={styles.accordionHead}>Обо мне</Accordion.Header>
-                    <Accordion.Body>
+                    <Accordion.Body className={styles.text}>
                         Меня зовут Ирина Лапина, я дипломированный психолог, практикующий
                         краткосрочный специалист. А это значит, что ты получаешь реальный результат
                         от работы в самые короткие сроки. В работе я использую комбинацию нескольких
@@ -27,7 +27,7 @@ const AccordionContainer = () => {
                     <Accordion.Header className={styles.accordionHead}>
                         С чем я могу помочь?
                     </Accordion.Header>
-                    <Accordion.Body>
+                    <Accordion.Body className={styles.text}>
                         <ol>
                             <li>
                                 Трудные эмоциональные ситуации ( потеря работы, развод, расставание
@@ -66,7 +66,7 @@ const AccordionContainer = () => {
                     <Accordion.Header className={styles.accordionHead}>
                         Услуги и цены
                     </Accordion.Header>
-                    <Accordion.Body>
+                    <Accordion.Body className={styles.text}>
                         Я работаю онлайн, по предоплате и СТРОГО после первичной консультации!
                         Первичная консультация (онлайн) 30 минут - 3000 рублей 1 сессия (онлайн) 60
                         минут - 5000 рублей 4 сессии (онлайн) 60 минут - 20.000 рублей

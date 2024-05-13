@@ -1,5 +1,5 @@
 .layoutContainer {
     display: flex;
     flex-direction: column;
-    gap: 1dvh;
+    gap: 3dvh;
 }

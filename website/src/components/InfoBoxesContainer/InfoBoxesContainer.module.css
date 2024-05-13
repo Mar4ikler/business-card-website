@@ -5,3 +5,9 @@
     gap: 3vw;
     justify-content: center;
 }
+
+@media only screen and (max-width: 780px) {
+    .subInfoContainer {
+        flex-direction: column;
+    }
+}

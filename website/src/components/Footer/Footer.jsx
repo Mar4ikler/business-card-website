@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
             <div className={styles.footerContactInfo}>
                 <div>с 9:00 до 21:00 по МСК</div>
-                <div>+7 926 134 45 01</div>
+                <div>+7 966 125 10 41</div>
             </div>
         </div>
     );

@@ -1,5 +1,5 @@
 .accordionCont {
-    width: 60vw;
+    width: 80vw;
 }
 
 .accordionHead>button {
@@ -16,3 +16,16 @@
         width: 90vw;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1060px) {
+    .accordionCont {
+        width: 80vw;
+    }
+}
+
+@media only screen and (min-width: 1061px) and (max-width: 1400px) {
+    .accordionCont {
+        width: 80vw;
+    }
+}
+

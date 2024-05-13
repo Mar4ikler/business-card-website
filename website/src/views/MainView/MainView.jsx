@@ -9,7 +9,7 @@ const MainView = () => {
             <div className={styles.generalInfoContainer}>
                 <div className={styles.representationInfo}>
                     <div>Ирина Лапина</div>
-                    <div>клинический психолог, специалист EMDR / ДПДГ</div>
+                    <div>психолог-консультант, специалист EMDR / ДПДГ</div>
                 </div>
                 <img src={images.irina} alt="not found" />
             </div>

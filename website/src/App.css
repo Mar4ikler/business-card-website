@@ -8,13 +8,13 @@ li {
 
 @media only screen and (min-width: 1401px) {
     * {
-        font-size: 2.2vw !important;
+        font-size: 1.7vw !important;
     }
 }
 
 @media only screen and (min-width: 2000px) {
     * {
-        font-size: 2.1vw !important;
+        font-size: 1.9vw !important;
     }
 }
 

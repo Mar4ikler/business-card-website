@@ -1,5 +1,5 @@
 .carouselContainer {
-    padding-top: 7dvh;
+    padding-top: 9dvh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -10,5 +10,6 @@
 }
 
 .carouselContainer > div:nth-child(2) {
-    width: 80%;
+    width: 65%;
+    margin: auto;
 }

@@ -4,7 +4,7 @@ import styles from './CertificatesView.module.css'
 
 const CertificatesView = () => {
     return (
-        <Carousel variant='dark' className={styles.carouselContainer} slide={false}>
+        <Carousel variant='dark' className={styles.carouselContainer} slide={false} interval={null}>
             <Carousel.Item>
                 <img src={images.diplom} className={styles.imageContainer} alt="not found" />
             </Carousel.Item>

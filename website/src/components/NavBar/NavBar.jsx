@@ -8,6 +8,14 @@ const NavBar = () => {
     const [isOpen, setOpen] = useState(false);
     const navRef = useRef(null);
 
+    const handleMenuItemClick = (loc) => {
+        if (navRef.current.style.display === 'flex') {
+            navRef.current.style.display = 'none';
+        }
+        setOpen(false);
+        navigate(loc);
+    };
+
     const handleHamburger = () => {
         if (navRef.current.style.display === 'none' || navRef.current.style.display === '') {
             navRef.current.style.display = 'flex';
@@ -21,9 +29,11 @@ const NavBar = () => {
         <div className={styles.navContainer}>
             <Hamburger toggled={isOpen} toggle={handleHamburger} />
             <nav className={styles.navBar} ref={navRef}>
-                <div onClick={() => navigate('/')}>ГЛАВНАЯ</div>
+                <div onClick={() => handleMenuItemClick('/')}>ГЛАВНАЯ</div>
                 <div>ИНФО</div>
-                <div onClick={() => navigate('/certificates')}>ДИПЛОМЫ И СЕРТИФИКАТЫ</div>
+                <div onClick={() => handleMenuItemClick('/certificates')}>
+                    ДИПЛОМЫ И СЕРТИФИКАТЫ
+                </div>
                 <div>ОТЗЫВЫ</div>
                 <div>ОФЕРТА</div>
             </nav>

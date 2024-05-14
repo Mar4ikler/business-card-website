@@ -1,0 +1,26 @@
+.offerContainer {
+    width: 70%;
+    margin: auto;
+    padding-top: 12dvh;
+    text-align: justify;
+}
+
+ol {
+    list-style: none;
+    counter-reset: li;
+}
+
+ol > li:before {
+    counter-increment: li;
+    content: counters(li, ".") ". ";
+}
+
+ol > li {
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 768px) and (min-height: 500px)  {
+    .offerContainer {
+        width: 90%;
+    }
+}

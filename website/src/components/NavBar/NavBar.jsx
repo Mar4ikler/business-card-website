@@ -35,7 +35,7 @@ const NavBar = () => {
                     ДИПЛОМЫ И СЕРТИФИКАТЫ
                 </div>
                 <div>ОТЗЫВЫ</div>
-                <div>ОФЕРТА</div>
+                <div onClick={() => handleMenuItemClick('/offer')}>ОФЕРТА</div>
             </nav>
         </div>
     );

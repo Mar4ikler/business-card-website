@@ -16,10 +16,10 @@
 .imagesContainer {
     display: flex;
     flex-direction: row;
-    gap: 1.5vw;
+    gap: 2vw;
 }
 
-.imagesContainer > img {
+.imagesContainer > a > img {
     height: 8dvh;
 }
 

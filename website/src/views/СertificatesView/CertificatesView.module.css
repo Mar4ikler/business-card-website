@@ -1,0 +1,14 @@
+.carouselContainer {
+    padding-top: 7dvh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imageContainer {
+    width: 100%;
+}
+
+.carouselContainer > div:nth-child(2) {
+    width: 80%;
+}

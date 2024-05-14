@@ -6,9 +6,16 @@ const Footer = () => {
         <div className={styles.footerContainer}>
             <div>Запись на консультацию через мессенджеры:</div>
             <div className={styles.imagesContainer}>
-                <img src={images.whatsapp} alt="not found" />
-                <img src={images.tg} alt="not found" />
-                <img src={images.inst} alt="not found" />
+                <a
+                    href="https://api.whatsapp.com/send?phone=79661251041"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <img src={images.whatsapp} alt="not found" />
+                </a>
+                <a href="https://t.me/irinalapinapsycholog" target="_blank" rel="noreferrer">
+                    <img src={images.tg} alt="not found" />
+                </a>
             </div>
             <div className={styles.footerContactInfo}>
                 <div>с 9:00 до 21:00 по МСК</div>

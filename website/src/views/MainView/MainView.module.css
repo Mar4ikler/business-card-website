@@ -10,6 +10,7 @@
     flex-direction: row;
     align-items: center;
     gap: 10vw;
+    padding-top: 7dvh;
 }
 
 .representationInfo {
@@ -58,7 +59,7 @@
         width: 100%;
         height: 100%;
         justify-content: flex-end;
-        padding-bottom: 30px;
+        padding-bottom: 60px;
         align-items: center;
     }
 
@@ -93,7 +94,7 @@
         width: 100%;
         height: 100%;
         justify-content: flex-end;
-        padding-bottom: 30px;
+        padding-bottom: 60px;
         align-items: center;
         font-size: 30px;
     }

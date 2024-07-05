@@ -30,7 +30,7 @@ const NavBar = () => {
             <Hamburger toggled={isOpen} toggle={handleHamburger} />
             <nav className={styles.navBar} ref={navRef}>
                 <div onClick={() => handleMenuItemClick('/')}>ГЛАВНАЯ</div>
-                <div>ИНФО</div>
+                <div onClick={() => handleMenuItemClick('/info')}>ИНФО</div>
                 <div onClick={() => handleMenuItemClick('/certificates')}>
                     ДИПЛОМЫ И СЕРТИФИКАТЫ
                 </div>

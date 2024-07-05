@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import CertificatesView from './views/СertificatesView/CertificatesView';
 import OfferView from './views/OfferView/OfferView';
+import InfoView from './views/InfoView/InfoView';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
                 <Routes>
                     <Route element={<Layout />} path="/">
                         <Route element={<MainView />} path="" />
+                        <Route element={<InfoView />} path="info" />
                         <Route element={<CertificatesView />} path="certificates" />
                         <Route element={<OfferView />} path="offer" />
                     </Route>

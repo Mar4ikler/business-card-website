@@ -528,8 +528,8 @@ const ReviewView = () => {
             setEditingCell({
                 width: cellMeta.width,
                 height: cellMeta.height,
-                x: cellMeta.x,
-                y: cellMeta.y,
+                x: event.target.backgroundShape.cfg.canvasBBox.x,
+                y: event.target.backgroundShape.cfg.canvasBBox.y,
                 city: cellMeta.data.city,
                 province: cellMeta.data.province,
                 type: cellMeta.data.type,
@@ -560,6 +560,13 @@ const ReviewView = () => {
         }
     };
 
+    const handleKeyDown = (e) => {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            e.target.blur();
+        }
+    };
+
     useEffect(() => {
         console.log(editingCell);
         console.log(editingValue);
@@ -571,7 +578,7 @@ const ReviewView = () => {
                 dataCfg={s2DataCfg}
                 options={s2Options}
                 sheetType="pivot"
-                adaptive={false} 
+                adaptive={false}
                 onDataCellDoubleClick={handleDataCellDoubleClick}
             />
             {editingCell && (
@@ -579,6 +586,7 @@ const ReviewView = () => {
                     value={editingValue}
                     onChange={handleInputChange}
                     onBlur={handleInputBlur}
+                    onKeyDown={handleKeyDown}
                     autoFocus={true}
                     style={{
                         position: 'absolute',

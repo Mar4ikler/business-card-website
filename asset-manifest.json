@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.ec9d7a0b.css",
-    "main.js": "/static/js/main.57ccdf77.js",
+    "main.js": "/static/js/main.08ae117e.js",
     "static/media/diplom.jpg": "/static/media/diplom.c0792b485b77185d78ca.jpg",
     "static/media/onlineDiplom.jpg": "/static/media/onlineDiplom.39af160d0a373d7e6455.jpg",
     "static/media/irina.jpg": "/static/media/irina.513f62f9fd3e588cde6e.jpg",
     "index.html": "/index.html",
     "main.ec9d7a0b.css.map": "/static/css/main.ec9d7a0b.css.map",
-    "main.57ccdf77.js.map": "/static/js/main.57ccdf77.js.map"
+    "main.08ae117e.js.map": "/static/js/main.08ae117e.js.map"
   },
   "entrypoints": [
     "static/css/main.ec9d7a0b.css",
-    "static/js/main.57ccdf77.js"
+    "static/js/main.08ae117e.js"
   ]
 }

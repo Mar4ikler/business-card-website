@@ -14,7 +14,7 @@ function App() {
             <Router>
                 <Routes>
                     <Route element={<Layout />} path="/">
-                        <Route element={<MainView />} path="" />
+                        <Route exact element={<MainView />} path="" />
                         <Route element={<InfoView />} path="info" />
                         <Route element={<CertificatesView />} path="certificates" />
                         <Route element={<OfferView />} path="offer" />

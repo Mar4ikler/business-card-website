@@ -13,7 +13,7 @@ function App() {
         <>
             <Router>
                 <Routes>
-                    <Route element={<Layout />} path="/business-card-website/">
+                    <Route element={<Layout />} path="/">
                         <Route element={<MainView />} path="" />
                         <Route element={<InfoView />} path="info" />
                         <Route element={<CertificatesView />} path="certificates" />

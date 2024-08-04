@@ -13,8 +13,8 @@ function App() {
         <>
             <Router>
                 <Routes>
-                    <Route element={<Layout />} path="/">
-                        <Route exact element={<MainView />} path="" />
+                    <Route element={<Layout />} path="/business-card-website/">
+                        <Route element={<MainView />} path="" />
                         <Route element={<InfoView />} path="info" />
                         <Route element={<CertificatesView />} path="certificates" />
                         <Route element={<OfferView />} path="offer" />
